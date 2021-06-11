@@ -2,10 +2,12 @@ package TestPackage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class TestClass {
 
-	public static void main(String[] args) {
+	@Test
+	public void testClass() {
 		System.out.println("Hi world");
 		System.setProperty("webdriver.chrome.driver", "./Executables/chromedriver");
 		WebDriver driver = new ChromeDriver();
