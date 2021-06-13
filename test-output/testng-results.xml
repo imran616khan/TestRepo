@@ -2,16 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16572" started-at="2021-06-13T04:00:36Z" finished-at="2021-06-13T04:00:53Z">
+  <suite name="SampleSuite" duration-ms="17149" started-at="2021-06-13T15:57:34Z" finished-at="2021-06-13T15:57:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16572" started-at="2021-06-13T04:00:36Z" finished-at="2021-06-13T04:00:53Z">
+    <test name="SampleTest" duration-ms="17149" started-at="2021-06-13T15:57:34Z" finished-at="2021-06-13T15:57:51Z">
       <class name="TestPackage.TestCases.BaseTest">
-        <test-method status="PASS" signature="baseTest()[pri:0, instance:TestPackage.TestCases.BaseTest@15b204a1]" name="baseTest" duration-ms="16551" started-at="2021-06-13T04:00:36Z" finished-at="2021-06-13T04:00:53Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="setupSuite" is-config="true" duration-ms="99" started-at="2021-06-13T15:57:34Z" finished-at="2021-06-13T15:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="baseTest" duration-ms="16189" started-at="2021-06-13T15:57:34Z" finished-at="2021-06-13T15:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="tearDown" is-config="true" duration-ms="945" started-at="2021-06-13T15:57:50Z" finished-at="2021-06-13T15:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=baseTest status=SUCCESS method=BaseTest.baseTest()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- TestPackage.TestCases.BaseTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- SampleSuite -->
 </testng-results>
