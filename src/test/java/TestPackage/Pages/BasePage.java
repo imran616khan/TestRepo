@@ -24,4 +24,12 @@ public class BasePage {
 		driver.quit();
 	}
 
+	public void waitFor(int timeInSeconds) {
+		try {
+			Thread.sleep(timeInSeconds * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
 }
