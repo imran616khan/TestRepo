@@ -15,9 +15,10 @@ public class Helper {
 
 	public static String captureScreenshot(WebDriver driver) {
 		String screenshotPath =  "./Screenshots/Sample_" + getCurrentDateAndTime() + ".png";
-		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileHandler.copy(src, new File(screenshotPath));
+			System.out.println("Screenshot captured");
 		} catch (IOException e) {
 			System.out.println("Unable to take screenshot" + e.getMessage());
 		}

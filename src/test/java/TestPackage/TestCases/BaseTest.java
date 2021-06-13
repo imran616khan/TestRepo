@@ -53,6 +53,7 @@ public class BaseTest {
 			logger.pass("Test Passed",
 					MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 		}
+		basePage.waitFor(5);
 		basePage.quitApp(driver);
 		report.flush();
 	}
