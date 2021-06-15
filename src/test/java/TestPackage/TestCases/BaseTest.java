@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import TestPackage.Pages.BasePage;
@@ -42,7 +43,7 @@ public class BaseTest {
 		logger.info("Getting page title");
 		System.out.println(driver.getTitle());
 		homePage.waitFor(5);
-		homePage.enterSearchKeyword("Imran Khan");
+		homePage.enterSearchKeyword("Husna");
 		homePage.waitFor(5);
 		logger.pass("Test completed successfully");
 	}
@@ -50,11 +51,11 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.SUCCESS) {
-			logger.pass("Test Passed",
+			logger.log(Status.INFO, "Test Passed",
 					MediaEntityBuilder.createScreenCaptureFromPath(Helper.captureScreenshot(driver)).build());
 		}
 		basePage.waitFor(5);
-		basePage.quitApp(driver);
 		report.flush();
+		basePage.quitApp(driver);
 	}
 }
