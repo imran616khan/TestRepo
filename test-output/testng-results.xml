@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="SampleSuite" duration-ms="32016" started-at="2021-06-15T18:18:59Z" finished-at="2021-06-15T18:19:31Z">
+  <suite name="SampleSuite" duration-ms="31555" started-at="2021-06-15T18:42:30Z" finished-at="2021-06-15T18:43:02Z">
     <groups>
     </groups>
-    <test name="SampleTest" duration-ms="32016" started-at="2021-06-15T18:18:59Z" finished-at="2021-06-15T18:19:31Z">
+    <test name="SampleTest" duration-ms="31555" started-at="2021-06-15T18:42:30Z" finished-at="2021-06-15T18:43:02Z">
       <class name="TestPackage.TestCases.BaseTest">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="setupSuite" is-config="true" duration-ms="107" started-at="2021-06-15T18:18:59Z" finished-at="2021-06-15T18:18:59Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="setupSuite" is-config="true" duration-ms="115" started-at="2021-06-15T18:42:30Z" finished-at="2021-06-15T18:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="baseTest()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="baseTest" duration-ms="25949" started-at="2021-06-15T18:18:59Z" finished-at="2021-06-15T18:19:25Z">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="baseTest" duration-ms="25399" started-at="2021-06-15T18:42:30Z" finished-at="2021-06-15T18:42:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="tearDown" is-config="true" duration-ms="6051" started-at="2021-06-15T18:19:25Z" finished-at="2021-06-15T18:19:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.BaseTest@2bbf180e]" name="tearDown" is-config="true" duration-ms="6138" started-at="2021-06-15T18:42:56Z" finished-at="2021-06-15T18:43:02Z">
           <params>
             <param index="0">
               <value>
