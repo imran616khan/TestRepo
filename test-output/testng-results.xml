@@ -1,47 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="SampleSuite" duration-ms="6502" started-at="2021-06-16T05:22:34Z" finished-at="2021-06-16T05:22:40Z">
+  <suite name="SampleSuite" duration-ms="34135" started-at="2021-06-16T10:33:00Z" finished-at="2021-06-16T10:33:34Z">
     <groups>
     </groups>
-    <test name="SampleTest" duration-ms="6502" started-at="2021-06-16T05:22:34Z" finished-at="2021-06-16T05:22:40Z">
+    <test name="SampleTest" duration-ms="34135" started-at="2021-06-16T10:33:00Z" finished-at="2021-06-16T10:33:34Z">
       <class name="TestPackage.TestCases.LandingPageTests">
-        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="setupExtentReport" is-config="true" duration-ms="9545" started-at="2021-06-16T05:22:24Z" finished-at="2021-06-16T05:22:34Z">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="setupExtentReport" is-config="true" duration-ms="10427" started-at="2021-06-16T10:32:49Z" finished-at="2021-06-16T10:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtentReport -->
-        <test-method status="PASS" signature="validateLandingPage()[pri:1, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="validateLandingPage" duration-ms="60" started-at="2021-06-16T05:22:34Z" finished-at="2021-06-16T05:22:34Z">
+        <test-method status="PASS" signature="validateLandingPage()[pri:1, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="validateLandingPage" duration-ms="72" started-at="2021-06-16T10:33:00Z" finished-at="2021-06-16T10:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLandingPage -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="tearDown" is-config="true" duration-ms="2258" started-at="2021-06-16T05:22:34Z" finished-at="2021-06-16T05:22:36Z">
+        <test-method status="PASS" signature="reloadLandingPage()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="reloadLandingPage" is-config="true" duration-ms="4307" started-at="2021-06-16T10:33:00Z" finished-at="2021-06-16T10:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLandingPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="tearDown" is-config="true" duration-ms="2239" started-at="2021-06-16T10:33:04Z" finished-at="2021-06-16T10:33:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateLandingPage status=SUCCESS method=LandingPageTests.validateLandingPage()[pri:1, instance:TestPackage.TestCases.LandingPageTests@56de5251] output={null}]]]>
+                <![CDATA[[TestResult name=validateLandingPage status=SUCCESS method=LandingPageTests.validateLandingPage()[pri:1, instance:TestPackage.TestCases.LandingPageTests@769e7ee8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="validateSelectingAnyMovie()[pri:2, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="validateSelectingAnyMovie" duration-ms="2108" started-at="2021-06-16T05:22:36Z" finished-at="2021-06-16T05:22:38Z">
+        <test-method status="PASS" signature="validateSelectingAnyMovie()[pri:2, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="validateSelectingAnyMovie" duration-ms="2093" started-at="2021-06-16T10:33:06Z" finished-at="2021-06-16T10:33:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSelectingAnyMovie -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="tearDown" is-config="true" duration-ms="2058" started-at="2021-06-16T05:22:38Z" finished-at="2021-06-16T05:22:40Z">
+        <test-method status="PASS" signature="reloadLandingPage()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="reloadLandingPage" is-config="true" duration-ms="3284" started-at="2021-06-16T10:33:08Z" finished-at="2021-06-16T10:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLandingPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="tearDown" is-config="true" duration-ms="2042" started-at="2021-06-16T10:33:12Z" finished-at="2021-06-16T10:33:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateSelectingAnyMovie status=SUCCESS method=LandingPageTests.validateSelectingAnyMovie()[pri:2, instance:TestPackage.TestCases.LandingPageTests@56de5251] output={null}]]]>
+                <![CDATA[[TestResult name=validateSelectingAnyMovie status=SUCCESS method=LandingPageTests.validateSelectingAnyMovie()[pri:2, instance:TestPackage.TestCases.LandingPageTests@769e7ee8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestPackage.TestCases.LandingPageTests@56de5251]" name="quitDriver" is-config="true" duration-ms="115" started-at="2021-06-16T05:22:40Z" finished-at="2021-06-16T05:22:40Z">
+        <test-method status="PASS" signature="validateSearchingAnyMovie()[pri:3, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="validateSearchingAnyMovie" duration-ms="7239" started-at="2021-06-16T10:33:14Z" finished-at="2021-06-16T10:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchingAnyMovie -->
+        <test-method status="PASS" signature="reloadLandingPage()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="reloadLandingPage" is-config="true" duration-ms="3391" started-at="2021-06-16T10:33:21Z" finished-at="2021-06-16T10:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLandingPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="tearDown" is-config="true" duration-ms="2038" started-at="2021-06-16T10:33:24Z" finished-at="2021-06-16T10:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSearchingAnyMovie status=SUCCESS method=LandingPageTests.validateSearchingAnyMovie()[pri:3, instance:TestPackage.TestCases.LandingPageTests@769e7ee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="validatePagination()[pri:4, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="validatePagination" duration-ms="2135" started-at="2021-06-16T10:33:26Z" finished-at="2021-06-16T10:33:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePagination -->
+        <test-method status="PASS" signature="reloadLandingPage()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="reloadLandingPage" is-config="true" duration-ms="3223" started-at="2021-06-16T10:33:29Z" finished-at="2021-06-16T10:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reloadLandingPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="tearDown" is-config="true" duration-ms="2037" started-at="2021-06-16T10:33:32Z" finished-at="2021-06-16T10:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePagination status=SUCCESS method=LandingPageTests.validatePagination()[pri:4, instance:TestPackage.TestCases.LandingPageTests@769e7ee8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestPackage.TestCases.LandingPageTests@769e7ee8]" name="quitDriver" is-config="true" duration-ms="95" started-at="2021-06-16T10:33:34Z" finished-at="2021-06-16T10:33:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

@@ -20,6 +20,10 @@ public class BasePage {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 	}
+	
+	public void navigateToLandingPage() {
+		driver.get("http://3.134.135.231:4000/");
+	}
 
 	public void quitApp(WebDriver driver) {
 		driver.quit();
