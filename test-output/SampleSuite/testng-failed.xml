@@ -5,8 +5,9 @@
     <classes>
       <class name="TestPackage.TestCases.LandingPageTests">
         <methods>
+          <include name="validateSelectingAnyMovie"/>
+          <include name="validateDeletingMovie"/>
           <include name="tearDown"/>
-          <include name="validateSearchingAnyMovie"/>
           <include name="setupExtentReport"/>
           <include name="reloadLandingPage"/>
           <include name="quitDriver"/>

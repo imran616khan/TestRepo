@@ -53,5 +53,14 @@ public class LandingPageTests extends BaseTest {
 		}
 		logger.pass("Test completed successfully");
 	}
+	
+	@Test(priority = 5)
+	public void validateDeletingMovie() {
+		logger = report.createTest("ValidateDeletingMovie");
+		logger.info("Starting to validate deleting movie from landing page");
+		logger.info("Checking whether able to delete movie from landing page or not");
+		Assert.assertTrue(landingPage.deleteMovie(), "Failed to delete movie from landing page");
+		logger.pass("Test completed successfully");
+	}
 
 }
