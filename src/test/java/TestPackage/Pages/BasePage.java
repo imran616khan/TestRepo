@@ -15,7 +15,8 @@ public class BasePage {
 		}
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com");
+		driver.get("http://3.134.135.231:4000/");
+		waitFor(5);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 	}

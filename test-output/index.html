@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-SampleSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SampleSuite" title="TestPackage.TestCases.BaseTest" hash-for-method="baseTest">baseTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SampleSuite" title="TestPackage.TestCases.LandingPageTests" hash-for-method="validateLandingPage">validateLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SampleSuite" title="TestPackage.TestCases.LandingPageTests" hash-for-method="validateSelectingAnyMovie">validateSelectingAnyMovie</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SampleSuite -->
@@ -120,14 +125,21 @@
           <div class="suite-SampleSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestPackage.TestCases.BaseTest</span>
+              <span class="class-name">TestPackage.TestCases.LandingPageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="baseTest">
-                  </a> <!-- baseTest -->
-                  <span class="method-name">baseTest</span>
+                  <a name="validateLandingPage">
+                  </a> <!-- validateLandingPage -->
+                  <span class="method-name">validateLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSelectingAnyMovie">
+                  </a> <!-- validateSelectingAnyMovie -->
+                  <span class="method-name">validateSelectingAnyMovie</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SampleSuite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestPackage.TestCases.BaseTest&quot;/&gt;
+      &lt;class name=&quot;TestPackage.TestCases.LandingPageTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SampleTest --&gt;
 &lt;/suite&gt; &lt;!-- SampleSuite --&gt;
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'baseTest')
-data.setCell(0, 2, 'TestPackage.TestCases.BaseTest')
-data.setCell(0, 3, 25399);
+data.setCell(0, 1, 'validateSelectingAnyMovie')
+data.setCell(0, 2, 'TestPackage.TestCases.LandingPageTests')
+data.setCell(0, 3, 2108);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateLandingPage')
+data.setCell(1, 2, 'TestPackage.TestCases.LandingPageTests')
+data.setCell(1, 3, 60);
 window.suiteTableData['SampleSuite']= { tableData: data, tableDiv: 'times-div-SampleSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-SampleSuite">
               </div> <!-- times-div-SampleSuite -->
             </div> <!-- times-div -->
@@ -219,19 +235,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestPackage.TestCases.BaseTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestPackage.TestCases.LandingPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setupSuite</span>
+                <span class="method-name">setupExtentReport</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">baseTest</span>
-                <span class="method-start">129 ms</span>
+                <span class="method-name">validateLandingPage</span>
+                <span class="method-start">9559 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=baseTest status=SUCCESS method=BaseTest.baseTest()[pri:0, instance:TestPackage.Test...)</span>
-                <span class="method-start">25531 ms</span>
+                <span class="method-name">tearDown([TestResult name=validateLandingPage status=SUCCESS method=LandingPageTests.validateLandingPage()[pr...)</span>
+                <span class="method-start">9621 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateSelectingAnyMovie</span>
+                <span class="method-start">11880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=validateSelectingAnyMovie status=SUCCESS method=LandingPageTests.validateSelectingA...)</span>
+                <span class="method-start">13989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">16061 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

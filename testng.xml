@@ -3,7 +3,7 @@
 <suite name="SampleSuite">
 	<test name="SampleTest">
 		<classes>
-			<class name="TestPackage.TestCases.BaseTest" />
+			<class name="TestPackage.TestCases.LandingPageTests" />
 		</classes>
 	</test>
 </suite>
