@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class LandingPage extends BasePage {
 	WebDriver driver;
 	@FindBy(css = "[class='col mt-4']") WebElement landingPageMoviesContainer;
-	@FindBy(css = "[alt=\"Gulliver's Travels\"]") WebElement movie;
+	@FindBy(css = "[alt='A Farewell to Arms']") WebElement movie;
 	@FindBy(css = "[class='ng-untouched ng-pristine ng-valid']") WebElement moviesDetailsContainer;
 	@FindBy(css = "[class='form-control form-control-sm mb-2 mr-2 ng-untouched ng-pristine ng-valid']") WebElement searchTextBox;
 	@FindBy(css = "[class='img-fluid shadow-lg rounded']") WebElement searchResult;

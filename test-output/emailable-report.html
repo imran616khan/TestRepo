@@ -9,63 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">SampleSuite</th></tr>
-<tr><td><a href="#t0">SampleTest</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">101,432</td><td></td><td></td></tr>
+<tr><td><a href="#t0">SampleTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">45,089</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SampleSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestPackage.TestCases.LandingPageTests</td><td><a href="#m0">validateDeletingMovie</a></td><td rowspan="1">1623846438277</td><td rowspan="1">30078</td></tr><tr class="failedeven"><td><a href="#m1">validateSelectingAnyMovie</a></td><td rowspan="1">1623846379719</td><td rowspan="1">30039</td></tr><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestPackage.TestCases.LandingPageTests</td><td><a href="#m2">validateLandingPage</a></td><td rowspan="1">1623846373665</td><td rowspan="1">64</td></tr><tr class="passedeven"><td><a href="#m3">validatePagination</a></td><td rowspan="1">1623846430713</td><td rowspan="1">2113</td></tr><tr class="passedeven"><td><a href="#m4">validateSearchingAnyMovie</a></td><td rowspan="1">1623846417421</td><td rowspan="1">7227</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SampleSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SampleTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">TestPackage.TestCases.LandingPageTests</td><td><a href="#m0">validateDeletingMovie</a></td><td rowspan="1">1624241656316</td><td rowspan="1">7572</td></tr><tr class="passedeven"><td><a href="#m1">validateLandingPage</a></td><td rowspan="1">1624241623797</td><td rowspan="1">68</td></tr><tr class="passedeven"><td><a href="#m2">validatePagination</a></td><td rowspan="1">1624241649265</td><td rowspan="1">2122</td></tr><tr class="passedeven"><td><a href="#m3">validateSearchingAnyMovie</a></td><td rowspan="1">1624241636838</td><td rowspan="1">7255</td></tr><tr class="passedeven"><td><a href="#m4">validateSelectingAnyMovie</a></td><td rowspan="1">1624241629495</td><td rowspan="1">2102</td></tr></tbody>
 </table>
-<h2>SampleTest</h2><h3 id="m0">TestPackage.TestCases.LandingPageTests#validateDeletingMovie</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[alt=&quot;Gulliver&apos;s Travels&quot;]&quot;}
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;C02T42NUG8WN&apos;, ip: &apos;2409:4071:211a:233:e1b3:550a:3da8:e798%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/7g/zl2wsf3j4yz...}, goog:chromeOptions: {debuggerAddress: localhost:49217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 273e552fda393d883f1c6fd084f39942
-*** Element info: {Using=css selector, value=[alt=&quot;Gulliver&apos;s Travels&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at TestPackage.Pages.LandingPage.selectMovie(LandingPage.java:42)
-	at TestPackage.Pages.LandingPage.deleteMovie(LandingPage.java:77)
-	at TestPackage.TestCases.LandingPageTests.validateDeletingMovie(LandingPageTests.java:62)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestPackage.TestCases.LandingPageTests#validateSelectingAnyMovie</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[alt=&quot;Gulliver&apos;s Travels&quot;]&quot;}
-  (Session info: chrome=91.0.4472.106)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;C02T42NUG8WN&apos;, ip: &apos;2409:4071:211a:233:e1b3:550a:3da8:e798%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /var/folders/7g/zl2wsf3j4yz...}, goog:chromeOptions: {debuggerAddress: localhost:49217}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 273e552fda393d883f1c6fd084f39942
-*** Element info: {Using=css selector, value=[alt=&quot;Gulliver&apos;s Travels&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at TestPackage.Pages.LandingPage.selectMovie(LandingPage.java:42)
-	at TestPackage.TestCases.LandingPageTests.validateSelectingAnyMovie(LandingPageTests.java:30)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestPackage.TestCases.LandingPageTests#validateLandingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestPackage.TestCases.LandingPageTests#validatePagination</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestPackage.TestCases.LandingPageTests#validateSearchingAnyMovie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SampleTest</h2><h3 id="m0">TestPackage.TestCases.LandingPageTests#validateDeletingMovie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestPackage.TestCases.LandingPageTests#validateLandingPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestPackage.TestCases.LandingPageTests#validatePagination</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestPackage.TestCases.LandingPageTests#validateSearchingAnyMovie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestPackage.TestCases.LandingPageTests#validateSelectingAnyMovie</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
